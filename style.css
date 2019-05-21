@@ -1,0 +1,14 @@
+body{
+    position: relative;
+}
+
+.sticky {
+    position: sticky;
+    height: 70px;
+}
+
+.header {
+    height: 100vh;
+    background: url('https://images.unsplash.com/photo-1551970634-086c4065fa85?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80') no-repeat ;
+    background-position: cover;
+}
