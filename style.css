@@ -38,3 +38,20 @@ body{
     border: 1px solid red;
     margin: 140px auto;
 }
+
+/* Apropos */
+
+.presentation {
+    border: 1px dashed black;
+}
+
+.apropos {
+    border: 1px solid blue;
+    max-width: 50%;
+}
+
+.progress-container {
+    border: 1px solid red;
+    max-height: 700px;
+    max-width: 50%;
+}
