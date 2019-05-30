@@ -35,23 +35,58 @@ body{
 
 .top {
     height: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 140px auto;
 }
 
 /* Apropos */
 
 .presentation {
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .apropos {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     max-width: 50%;
 }
 
-.progress-container {
-    border: 1px solid red;
-    max-height: 700px;
-    max-width: 50%;
+.proposCont {
+    /* border: 1px solid gainsboro; */
 }
+
+
+
+.progress-container {
+    /* border: 1px solid red; */
+    max-height: 700px;
+    width: 50%;
+}
+
+/* Portfolio */
+
+.image {
+    margin-right: 5px;
+}
+
+.image:hover {
+    filter: blur(3px)
+}
+
+
+/* Contact */
+
+.detail, .formulaire {
+    width: 50%;
+    height: 400px;
+} 
+.label {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.label > label {
+    width: 20%;
+}
+
+
